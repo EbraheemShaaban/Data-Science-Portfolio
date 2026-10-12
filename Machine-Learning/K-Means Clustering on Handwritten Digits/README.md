@@ -17,13 +17,6 @@ This project explores unsupervised clustering of handwritten digit images using 
 - Cluster-versus-true-digit composition heatmap and sample-image inspection
 - Analysis of cluster counts from 2 to 15 using inertia and silhouette score
 
-## Run locally
-```bash
-pip install numpy pandas matplotlib scikit-learn notebook
-jupyter notebook
-```
-Open `KMeans_Digits_Enhanced.ipynb` and choose **Restart Kernel and Run All Cells**.
-
 ## Important interpretation notes
 - The true labels are not passed to K-Means during fitting; they are used only for evaluation after clustering.
 - Cluster IDs are arbitrary and do not necessarily correspond to digit labels.
@@ -31,6 +24,3 @@ Open `KMeans_Digits_Enhanced.ipynb` and choose **Restart Kernel and Run All Cell
 - The PCA-based initialization is an educational experiment using principal-component vectors as initial centers; it should not be assumed to outperform other strategies.
 - Silhouette scores are estimated on a reproducible sample to reduce runtime.
 - This is an educational benchmark on a small built-in dataset, not evidence of production readiness.
-
-## Attribution
-This notebook is an extended educational adaptation of Scikit-learn's K-Means digits example. Retain appropriate attribution and comply with Scikit-learn's BSD-3-Clause license when redistributing adapted code.
