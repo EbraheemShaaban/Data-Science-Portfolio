@@ -30,15 +30,6 @@ All datasets are generated in the notebook, so no external data files are requir
 5. Hyperparameter tuning for an RBF SVM using `GridSearchCV` on the training split.
 6. Explanations of preprocessing, evaluation, and common limitations.
 
-## Requirements
-Python 3.10+ is recommended. Install the required packages:
-
-```bash
-pip install numpy pandas matplotlib scikit-learn notebook
-```
-
-Open `Classifier_Comparison_Enhanced.ipynb` in Jupyter Notebook or JupyterLab and run the cells in order.
-
 ## Methodology Notes
 - Scaling is performed in a scikit-learn pipeline to avoid fitting the scaler on held-out data.
 - `clone` creates a fresh classifier for each experiment.
@@ -52,5 +43,3 @@ Open `Classifier_Comparison_Enhanced.ipynb` in Jupyter Notebook or JupyterLab an
 - Grid search explores a deliberately small parameter grid for learning purposes, not exhaustive optimization.
 - For a stronger real-world project, use representative data, compare against a baseline, validate assumptions, and select metrics based on the problem's costs.
 
-## Attribution
-This project is an educational adaptation inspired by scikit-learn's classifier-comparison example. Review the original example and scikit-learn licensing/attribution terms when publishing: https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
