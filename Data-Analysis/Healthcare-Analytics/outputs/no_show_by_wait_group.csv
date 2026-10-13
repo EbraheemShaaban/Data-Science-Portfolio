@@ -1,0 +1,7 @@
+WaitGroup,appointments,no_shows,no_show_rate_pct
+Same day,38562,1792,4.65
+1-7 days,32185,7772,24.15
+8-14 days,12025,3664,30.47
+15-30 days,17371,5661,32.59
+31-60 days,8283,2829,34.15
+61+ days,2095,596,28.45

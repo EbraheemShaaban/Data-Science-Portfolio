@@ -1,0 +1,5 @@
+check,count
+Rows in raw file,110527
+Exact duplicate rows found before cleaning,0
+Duplicate AppointmentID rows found before cleaning,0
+"Rows excluded for missing/negative age, invalid date, or invalid target",1
